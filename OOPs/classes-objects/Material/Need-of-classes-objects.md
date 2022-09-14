@@ -21,8 +21,11 @@ Let us try to explore what all are the possiblities as a developer that we can t
     I can create many functions for every domain - each function will be defining the overall functionality of that role. for eg:
     
     ```py
-    def something():
-          pass
+    def TechLead(name, id, workingDomain, employeeReport):
+        pass
+
+    def SdeLvlOne(name, id, workingDomain, toDoReport, skillSet):
+        pass
     ```
        
     But the problem with such type of system is that -- 
