@@ -69,8 +69,31 @@ Now the question is, if I want to play around with any value - be it an instance
 The situation is very simple. Only the person with id=1, can have the access to do something. So, how can I make use of that id-> which I'll pass as a parameter to the class, in some other method - "grantAccess".
 
 ```py
-def something:
-    pass
+class TechLead:
+    def __init__(self, name, employeeId, workingDomain, employeeReport):
+        self.name = name
+        self.employeeId = employeeId
+        self.workingDomain = workingDomain
+        self.employeeReport = employeeReport
+
+    def salary(self):
+        sal = "$ 21000"
+        return sal
+
+    def grantAccess(self):
+        if self.employeeId==1:
+            return "granted"
+        else:
+            return "denied"
+
+akarsh = TechLead("Akarsh", 1, "Technology", ["utkarsh.pdf","sethu.pdf"])
+sid = TechLead("Sid", 2, "Technology", ["deepika.pdf","arun.pdf"])
+
+print(akarsh.grantAccess()) # output --> granted
+print(sid.grantAccess())    # output --> denied
+
+print(akarsh.salary()) # output --> $ 21000
+print(sid.salary())    # output --> $ 21000
 ```
 
 You can clearly see, that instance values changes over different instances, while non-instance value like sal, does not change for different instances.
