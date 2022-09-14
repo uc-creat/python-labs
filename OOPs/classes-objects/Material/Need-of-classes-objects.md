@@ -20,16 +20,15 @@ Let us try to explore what all are the possiblities as a developer that we can t
 - #### Possiblity 1: 
        I can create many functions for every domain - each function will be defining the overall functionality of that role. for eg: 
 
-
        ```py
        
        def TechLead(name, id, workingDomain, employeeReport):
         pass
 
        def SdeLvlOne(name, id, workingDomain, toDoReport, skillSet):
-        pass
-        
+        pass       
        ```
+       
        
        But the problem with such type of system is that -- 
        
@@ -41,10 +40,10 @@ Let us try to explore what all are the possiblities as a developer that we can t
        ```py
 
        def SdeLevelTwo(name, id, workingDomain, toDoReport, skillSet, project):
-        pass
-        
+        pass       
        ```
-       
+ 
+ 
        Clearly, one thing we can get from the above case is that - if there are more dependencies our function will become a lot complicated.
 
        All the above three points - seems to make us think that - with this type of system, I might be able to group certain roles - but still my problem of manageing various operations + these roles are not fully satisfied.
