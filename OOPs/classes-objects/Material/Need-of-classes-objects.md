@@ -21,11 +21,11 @@ Let us try to explore what all are the possiblities as a developer that we can t
      I can create many functions for every domain - each function will be defining the overall functionality of that role. for eg: 
      
 
-      ```py
+          ```py
 
-       def SdeLevelTwo(name, id, workingDomain, toDoReport, skillSet, project):
-           pass       
-       ```
+          def SdeLevelTwo(name, id, workingDomain, toDoReport, skillSet, project):
+               pass       
+          ```
        
     But the problem with such type of system is that -- 
        
