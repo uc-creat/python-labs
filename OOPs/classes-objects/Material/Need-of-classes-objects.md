@@ -18,8 +18,7 @@ Now considering the above situation, I am finding it very difficult to manage, b
 Let us try to explore what all are the possiblities as a developer that we can think of -- for creating such type of system.
 
 - #### Possiblity 1: 
-     I can create many functions for every domain - each function will be defining the overall functionality of that role. for eg: 
-     
+
 
           ```py
 
