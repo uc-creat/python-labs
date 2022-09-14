@@ -17,14 +17,13 @@ Then apart from this information, I also need some extra information - which is 
 Now considering the above situation, I am finding it very difficult to manage, because in my company I have many domains, and many levels of every role. 
 Let us try to explore what all are the possiblities as a developer that we can think of -- for creating such type of system.
 
-- #### Possiblity 1: 
-
-
-          ```py
-
-          def SdeLevelTwo(name, id, workingDomain, toDoReport, skillSet, project):
-               pass       
-          ```
+- #### Possiblity 1:
+    I can create many functions for every domain - each function will be defining the overall functionality of that role. for eg:
+    
+    ```py
+    def something():
+          pass
+    ```
        
     But the problem with such type of system is that -- 
        
