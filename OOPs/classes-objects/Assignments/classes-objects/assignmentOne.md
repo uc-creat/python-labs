@@ -1,7 +1,7 @@
 ### Guidelines:
 The rules are quite simple. You have to clone this project -> copy paste the given snippet and complete the tasks listed below. 
 ***Note:***
-Do not edit or make changes -> from line (20-23).
+Do not edit or make changes -> last 4 lines of the givne snippet.
 
 ***Snippet:***
 
