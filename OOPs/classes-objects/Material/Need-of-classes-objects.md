@@ -30,11 +30,11 @@ Let us try to explore what all are the possiblities as a developer that we can t
        ```
        
        
-       But the problem with such type of system is that -- 
+    But the problem with such type of system is that -- 
        
-       1. If I want to add more attributes - then my function will be full of parameters -- which is not a good coding practice.
-       2. We know that for every employee there are some common attributes, but with this type of system, I need to pass those common attributes everytime for every role.
-       3. Now consider, if there is some other role like SDE level 2 - which depends upon SDE level 1. Like, along with the skill set list and daily report they also have to submit the project they are in. So with this approach we will be creating another function like -- 
+    1. If I want to add more attributes - then my function will be full of parameters -- which is not a good coding practice.
+    2. We know that for every employee there are some common attributes, but with this type of system, I need to pass those common attributes everytime for every role.
+    3. Now consider, if there is some other role like SDE level 2 - which depends upon SDE level 1. Like, along with the skill set list and daily report they also have to submit the project they are in. So with this approach we will be creating another function like -- 
 
        ```py
 
@@ -43,8 +43,8 @@ Let us try to explore what all are the possiblities as a developer that we can t
        ```
  
  
-       Clearly, one thing we can get from the above case is that - if there are more dependencies our function will become a lot complicated.
-       All the above three points - seems to make us think that - with this type of system, I might be able to group certain roles - but still my problem        of manageing various operations + these roles are not fully satisfied.
+    Clearly, one thing we can get from the above case is that - if there are more dependencies our function will become a lot complicated.
+    All the above three points - seems to make us think that - with this type of system, I might be able to group certain roles - but still my problem        of manageing various operations + these roles are not fully satisfied.
 
 - #### Possibility 2:
     Second possiblity can be by creating a single function for eveything.
