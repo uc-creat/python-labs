@@ -28,7 +28,7 @@ sid = TechLead("Sid", 2, "Technology", ["deepika.pdf","arun.pdf"])
 Now there are a lot of things to note.
 First, we made a class which is storing information related to the role tech-lead. After defining the class, we are creating a method as ***def __init__ (self)*** method. 
 
-- init method:
+- #### init method:
   This method basically means -- what are the parameters that you want to pass to your container whenever you initiliaze this class. So, whenever you will be calling this class, this method will run for that ***instance*** . If you don't create this method, then you are basically trying to say that - inside your class, you don't need any field which depends upon that particular ***instance***.
 
   - **What is an instance:**
@@ -68,33 +68,10 @@ Now the question is, if I want to play around with any value - be it an instance
 #### Situation:
 The situation is very simple. Only the person with id=1, can have the access to do something. So, how can I make use of that id-> which I'll pass as a parameter to the class, in some other method - "grantAccess".
 
-    ```py
-    class TechLead:
-        def __init__(self, name, employeeId, workingDomain, employeeReport):
-            self.name = name
-            self.employeeId = employeeId
-            self.workingDomain = workingDomain
-            self.employeeReport = employeeReport
-
-        def salary(self):
-            sal = "$ 21000"
-            return sal
-
-        def grantAccess(self):
-            if self.employeeId==1:
-                return "granted"
-            else:
-                return "denied"
-
-    akarsh = TechLead("Akarsh", 1, "Technology", ["utkarsh.pdf","sethu.pdf"])
-    sid = TechLead("Sid", 2, "Technology", ["deepika.pdf","arun.pdf"])
-
-    print(akarsh.grantAccess()) # output --> granted
-    print(sid.grantAccess())    # output --> denied
-
-    print(akarsh.salary()) # output --> $ 21000
-    print(sid.salary())    # output --> $ 21000
-    ```
+```py
+def something:
+    pass
+```
 
 You can clearly see, that instance values changes over different instances, while non-instance value like sal, does not change for different instances.
 
