@@ -1,14 +1,3 @@
-<details>
-  <summary>Spoiler warning</summary>
-  
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  
-  ```javascript
-  console.log("I'm a code block!");
-  ```
-  
-</details>
-
 ## Why do we need classes: 
 
 This is a very important question to ask yourself, before starting anything - Why do we need to have any sort of understanding of concepts like classes and objects. To answer this question, let us consider a situation. 
