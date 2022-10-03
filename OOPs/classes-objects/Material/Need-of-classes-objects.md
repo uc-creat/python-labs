@@ -1,3 +1,5 @@
+! Spoiler text
+
 ## Why do we need classes: 
 
 This is a very important question to ask yourself, before starting anything - Why do we need to have any sort of understanding of concepts like classes and objects. To answer this question, let us consider a situation. 
